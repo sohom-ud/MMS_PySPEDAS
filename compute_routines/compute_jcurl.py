@@ -1,5 +1,8 @@
-from __init__ import *
-from __methods import *
+import numpy as np
+import pandas as pd
+
+from src.utils.compute_k import compute_k
+from src.utils.interpolate_b import interpolate_b
 
 mu0 = 4 * np.pi * 1e-7
 
